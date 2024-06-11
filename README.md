@@ -30,18 +30,18 @@
 ### } 
 ### the first thing we need to do is include the arduboy2 library so before and above the setup function we will need to add: #include <Arduboy2.h> below that we will need to add: Arduboy2 arduboy; I won't explain this now because it is complicated but all you need to know is that this isn't important know. Next we need to tell the computer to start the game and to clear the screen kind of like painting a canvas white. to do this move into the void setup area and type arduboy.begin(); then below that type arduboy.clear(); Then move into the void loop section and type again arduboy.clear();. Now we are ready to rumble, we are now going to actually print a message to the screen so after the clear command in loop type arduboy.print("whatever you want to say"); you can add any message where I put the "whatever you want to say" message. Just be careful because if you keep typing on and on forever the screen will run out of space, it is only 128 pixels wide! So to stop this and go to the line below that, type arduboy.print("\n"); this will not print \n but it instead will go to a new line like when you press return on your keyboard. Now what if you want to put a message anywhere you want on the screen? Well then you will have to type arduboy.setCursor(0,0); the two zeros are coardinates on the screen. To put your cursor wherever you want 
 ### I would advise making a pixel art screen that is 128 pixels wide and 64 pixels tall so you can visually see where you want your letters to be. And finally when you are done coding add the command arduboy.display(); in the curly braces as the last thing in your void loop code to tell the computer to display it. Here is a full code that uses all of these features: 
-#include <Arduboy2.h>
-Arduboy2 arduboy; 
-void setup() {
-  arduboy.begin();    //this is a comment!!!
-  arduboy.clear();
-}
+### #include <Arduboy2.h>
+### Arduboy2 arduboy; 
+### void setup() {
+  ### arduboy.begin();    //this is a comment!!!
+  ### arduboy.clear();
+### }
 
-void loop() {
-  arduboy.setcursor(17,6);
-  arduboy.print("h");
-  arduboy.print("\n");
-  arduboy.print("i");
-  arduboy.display();
-}
+### void loop() {
+  ### arduboy.setcursor(17,6);
+ ### arduboy.print("h");
+  ### arduboy.print("\n");
+  ### arduboy.print("i");
+  ### arduboy.display();
+### }
 
