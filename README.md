@@ -9,4 +9,4 @@
 ## setup 
 ## Before you setup! NOTES!
 ### this tutorial I will be using a tool called arduboy. An arduboy is an 8 bit game console that has a special coding library to assist in learning c++. If you don't have the physical arduboy that is ok we will show you the digital version and how you can use that to code! 
-### Lets get your computer all of the tools it needs to make code and run it! First we are going to grab an app that is kind of like google docs that will let us write code. 
+### Lets get your computer all of the tools it needs to make code and run it! First we are going to grab an app that is kind of like google docs that will let us write code. This app is called the arduino IDE and ide stands for an integrated development enviroment. This is an enviroment where you can develop code and work on your game projects. 
