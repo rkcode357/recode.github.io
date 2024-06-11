@@ -17,4 +17,14 @@
 ### void loop() {
 ### }
 ### the setup is where you add code that will only run once and the loop will run continously. The next thing I have to explain is comments, comments are little notes to yourself that the computer ignores it helps keep your code more clear to comment you just type // and the your note so if I wanted to comment "Hi" to myself I would write: //hi. 
-### Now there is still more to explain so bear with me! The last thing to do is explain 
+### Now there is still more to explain so bear with me! Something really important to remember is that all of the code commands you write NEED to go inside of the curly braces, these things: {} so if the code isn't INSIDE of those you will get a million errors and things. another thing is after almost every line of code you pu a semicolan to tell the computer the code command has ended. like this; The last thing to do is explain what a library is, a library is a special code that you can install in the ide that lets you write code for certain computer hardware. If you are going to use the physical arduboy fx for this tutorial, then you will need to install the arduboy2 library in the arduino ide. Also if you are going to use the arduboy fx, I would learn first how to connect and upload code to the computer. There are many tutorials for this online. So basically if you do not want to go throught the whole process of uploading to the arduboy, just use the online simulator and you will be fine :). 
+### now it is time to teach you the print function, In the arduino ide you will see this code: 
+
+### void setup() {
+
+### }
+
+### void loop() {
+
+### } 
+### the first thing we need to do is include the arduboy2 library so before and above the setup function we will need to add: #include <Arduboy2.h> below that we will need to add: Arduboy2 arduboy; I won't explain this now because it is complicated but all you need to know is that this isn't important know. 
