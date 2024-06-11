@@ -28,7 +28,6 @@
 
 ### } 
 ### the first thing we need to do is include the arduboy2 library so before and above the setup function we will need to add: #include <Arduboy2.h> below that we will need to add: Arduboy2 arduboy; I won't explain this now because it is complicated but all you need to know is that this isn't important know. 
-<!DOCTYPE html>
 <html>
    <head>
       <title>Title of the document</title>
