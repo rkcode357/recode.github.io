@@ -34,8 +34,8 @@
       <title>Title of the document</title>
    </head>
    <body>
-      <form action="https://www.w3docs.com/">
-         <button type="submit">Click me</button>
+      <form action="https://rkcode357.github.io/rkcodetutorial457.github.io/cool%20cave.png">
+         <button type="submit">image</button>
       </form>
    </body>
 </html>
