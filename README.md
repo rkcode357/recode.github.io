@@ -5,7 +5,7 @@
 ### 2. setup
 ### 3. how to use the print function and coding basics
 ## introduction for c++
-### Welcome to the world of c++! a coding language used for game development, web development, and so much more! Any electronic computer has code, most of it being c++ so it is a great language to learn. Being brutally honest, c++ is a very hard language to learn for begginers but stick to it and TRUST ME you WILL get it! The mos important takeway is don't get discouraged, every developer had to go through the stuff you have to get throught to get to an expert level. 
+### Welcome to the world of c++! a coding language used for game development, web development, and so much more! Any electronic computer has code, most of it being c++ so it is a great language to learn. Being brutally honest, c++ is a very hard language to learn for begginers but stick to it and TRUST ME you WILL get it! The most important takeway is don't get discouraged, every developer had to go through the stuff you have to get throught to get to an expert level. 
 ## setup 
 ## Before you setup! NOTES!
 ### this tutorial I will be using a tool called arduboy. An arduboy is an 8 bit game console that has a special coding library to assist in learning c++. If you don't have the physical arduboy that is ok we will show you the digital version and how you can use that to code! 
@@ -17,4 +17,4 @@
 ### void loop() {
 ### }
 ### the setup is where you add code that will only run once and the loop will run continously. The next thing I have to explain is comments, comments are little notes to yourself that the computer ignores it helps keep your code more clear to comment you just type // and the your note so if I wanted to comment "Hi" to myself I would write: //hi. 
-### Now there is still more to explain so bear with me! 
+### Now there is still more to explain so bear with me! The last thing to do is explain 
