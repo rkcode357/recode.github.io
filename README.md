@@ -16,5 +16,5 @@
 ### and a 
 ### void loop() {
 ### }
-### the setup is where you add code that will only run once and the loop will run continously. The next thing I have to explain is comments, comments are little notes to yourself that the computer ignores it helps keep your code more clear to comment you just type // and the yor note so if I wanted to comment "Hi" to myself I would write: //hi. 
-Now there is still more to explain so bear with me! 
+### the setup is where you add code that will only run once and the loop will run continously. The next thing I have to explain is comments, comments are little notes to yourself that the computer ignores it helps keep your code more clear to comment you just type // and the your note so if I wanted to comment "Hi" to myself I would write: //hi. 
+### Now there is still more to explain so bear with me! 
