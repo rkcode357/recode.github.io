@@ -33,16 +33,24 @@
 ### #include <Arduboy2.h>
 ### Arduboy2 arduboy; 
 ### void setup() {
-  arduboy.begin();    //this is a comment!!!
+  arduboy.begin();
+  
+  //this is a comment!!!
+  
   arduboy.clear();
 ### }
 
 ### void loop() {
   arduboy.setcursor(17,6);
+  
   arduboy.print("h");
+  
   arduboy.print("\n");
+  
   arduboy.print("i");
+  
   arduboy.display();
+  
 ### }
 
 
