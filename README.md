@@ -30,7 +30,7 @@
 ### void loop() {
 
 ### } 
-### the first thing we need to do is include the arduboy2 library so before and above the setup function we will need to add: #include < Arduboy2.h > also put the "Arduboy2.h inside of these more than or less than symbols like this: < >. below that we will need to add: Arduboy2 arduboy; I won't explain this now because it is complicated but all you need to know is that this isn't important know. Next we need to tell the computer to start the game and to clear the screen kind of like painting a canvas white. to do this move into the void setup area and type arduboy.begin(); then below that type arduboy.clear(); Then move into the void loop section and type again arduboy.clear();. Now we are ready to rumble, we are now going to actually print a message to the screen so after the clear command in loop type arduboy.print("whatever you want to say"); you can add any message where I put the "whatever you want to say" message. Just be careful because if you keep typing on and on forever the screen will run out of space, it is only 128 pixels wide! So to stop this and go to the line below that, type arduboy.print("\n"); this will not print \n but it instead will go to a new line like when you press return on your keyboard. Now what if you want to put a message anywhere you want on the screen? Well then you will have to type arduboy.setCursor(0,0); the two zeros are coardinates on the screen. To put your cursor wherever you want 
+### the first thing we need to do is include the arduboy2 library so before and above the setup function we will need to add: #include Arduboy2.h also put the "Arduboy2.h inside of these more than or less than symbols like this: < >. below that we will need to add: Arduboy2 arduboy; I won't explain this now because it is complicated but all you need to know is that this isn't important know. Next we need to tell the computer to start the game and to clear the screen kind of like painting a canvas white. to do this move into the void setup area and type arduboy.begin(); then below that type arduboy.clear(); Then move into the void loop section and type again arduboy.clear();. Now we are ready to rumble, we are now going to actually print a message to the screen so after the clear command in loop type arduboy.print("whatever you want to say"); you can add any message where I put the "whatever you want to say" message. Just be careful because if you keep typing on and on forever the screen will run out of space, it is only 128 pixels wide! So to stop this and go to the line below that, type arduboy.print("\n"); this will not print \n but it instead will go to a new line like when you press return on your keyboard. Now what if you want to put a message anywhere you want on the screen? Well then you will have to type arduboy.setCursor(0,0); the two zeros are coardinates on the screen. To put your cursor wherever you want 
 ### I would advise making a pixel art screen that is 128 pixels wide and 64 pixels tall so you can visually see where you want your letters to be. And finally when you are done coding add the command arduboy.display(); in the curly braces as the last thing in your void loop code to tell the computer to display it. Here is a full code that uses all of these features: 
  #include Arduboy2.h  // Remember these!!! <  > 
  
@@ -64,7 +64,7 @@
 ### So, what is a function? A function is a command that does something on the arduboy screen or in code altogether. For example some functions would be arduboy.print(""); and arduboy.clear(); these are functions and remember, they are always followed by a semicolan. Like this; Always remember that!
 # variables and adding
 ### Math is a HUGE part of coding in any language. Using basic logic and mathematics, you can achieve almost anything in coding. So this lesson will be all about math and things like that. So our first thing we have to learn is varaibles, what I think is the most important element in a code. A variable is a string of letters and is usually a word. So Lets use how to use variables, you create a variable by after you add the Arduboy2 arduboy; element before void setup you will have to add: int variable name goes here so it would look like:
- #include <Arduboy2.h>
+ #include Arduboy2.h  //PUT THE ARDUBOY2.H PART INSIDE OF < >!!! 
  
  Arduboy2 arduboy; 
  
@@ -83,6 +83,7 @@
    arduboy.clear();
    
  }
+ 
  ### in this code we declare the variable, int_stands_for_integer (it does) and notice how I gave it an initial value in the setup section. I gave the integer the value of one. So now we can add this variable do math with it. Now what if you want to add a bigger value to a variable? There is a command to do this. The command is:
  int_stands_for_integer = int_stands_for_integer + 1; 
  ### This line of code adds one to the variable int_stands_for_integer. This variable is now holding the value of 2. There is also a different way to do this you can re-declare the value of the variable to anything we want. If I wanted to declare the variable as the number 2, I would write: 
