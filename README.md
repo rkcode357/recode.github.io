@@ -1,16 +1,18 @@
 # rkcode coding tutorials!
 ### these coding tutorials start with c++. I will add a python tutorial later but for now enjoy the tutorial!
 ## table of contents
-### 1. introduction
-### 2. setup
-### 3. how to use the print function and coding basics
+### 1. Introduction
+### 2. Setup
+### 3. How to use the print function and coding basics
+### 4. A note on functions 
+### 5. Variables and adding
 # introduction for c++
 ###  Welcome to the world of c++! a coding language used for game development, web development, and so much more! Any electronic computer has code, most of it being c++ so it is a great language to learn. Being brutally honest, c++ is a very hard language to learn for begginers but stick to it and TRUST ME you WILL get it! The most important takeway is don't get discouraged, every developer had to go through the stuff you have to get throught to get to an expert level. 
 # setup 
 ## Before you setup! NOTES!
 ### this tutorial I will be using a tool called arduboy. An arduboy is an 8 bit game console that has a special coding library to assist in learning c++. If you don't have the physical arduboy that is ok we will show you the digital version and how you can use that to code! 
-### Lets get your computer all of the tools it needs to make code and run it! First we are going to grab an app that is kind of like google docs that will let us write code. This app is called the arduino IDE and ide stands for an integrated development enviroment. This is an enviroment where you can develop code and work on your game projects. Lets go to the website you need to download arduino ide. This websites link is www.arduino.cc/en/software. After you get to the website go to download options, and then download the app according to what operating system you have e.x (Windows mac linux). Once you have the app downloaded open it up. Once opened you should see some code and a dark mode google docs like thing. This is an IDE. This is what master coders and game devs use to code :). (Not really but you get the point). Now that we have our development enviroment all set up we need an arduboy to run it. If you have the physical arduboy FX which you can buy here: https://www.arduboy.com that is great but if you don't want to spend 80 dollars to buy one you can use the digital website simulator to simulate the games. You can find that website here: https://tiberiusbrown.github.io/Ardens/ You will need to drag and drop the hex file of your game into this website to simulate it. We will show you how to do this later. Now you are ready to go to the first part of the tutorial, Basic coding and the print function!
-## How to use the print function and coding basics
+### Lets get your computer all of the tools it needs to make code and run it! First we are going to grab an app that is kind of like google docs that will let us write code. This app is called the arduino IDE and ide stands for an integrated development enviroment. This is an enviroment where you can develop code and work on your game projects. Lets go to the website you need to download arduino ide. This websites link is www.arduino.cc/en/software. After you get to the website go to download options, and then download the app according to what operating system you have e.x (Windows mac linux). Once you have the app downloaded open it up. Once opened you should see some code and a dark mode google docs like thing. This is an IDE. This is what master coders and game devs use to code :). (Not really but you get the point). Now that we have our development enviroment all set up we need an arduboy to run it. If you have the physical arduboy FX which you can buy here: https://www.arduboy.com that is great but if you don't want to spend 80 dollars to buy one you can use the digital website simulator to simulate the games. You can find that website here: https://tiberiusbrown.github.io/Ardens/ You will need to drag and drop the hex file of your game into this website to simulate it. We will show you how to do this later. One more thing to note is that Whenever I represent code in this tutorial I add a space between every line of code this is not how it works in the ide, Basically you don't need to do this When you are coding. Now you are ready to go to the first part of the tutorial, Basic coding and the print function!
+# How to use the print function and coding basics
 ### The first thing we are going to learn how to do to our arduboy is make it say something this is called the print function. But before you do that I need to explain see something. When you open up a project in arduino ide you will see a void setup() {
 ### } 
 ### and a 
@@ -57,5 +59,32 @@
   arduboy.display();
   
  }
+### congratulations! you are done with the first lesson! 
+# a note on functions
+### So, what is a function? A function is a command that does something on the arduboy screen or in code altogether. For example some functions would be arduboy.print(""); and arduboy.clear(); these are functions and remember, they are always followed by a semicolan. Like this; Always remember that!
+# variables and adding
+### Math is a HUGE part of coding in any language. Using basic logic and mathematics, you can achieve almost anything in coding. So this lesson will be all about math and things like that. So our first thing we have to learn is varaibles, what I think is the most important element in a code. A variable is a string of letters and is usually a word. So Lets use how to use variables, you create a variable by after you add the Arduboy2 arduboy; element before void setup you will have to add: int variable name goes here so it would look like:
+ #include <Arduboy2.h>
+ 
+ Arduboy2 arduboy; 
+ 
+ int int_stands_for_integer
 
-
+ void setup(); {
+ 
+   arduboy.begin();
+   
+   arduboy.clear();
+   
+   int_stands_for_integer = 1 
+ }
+ void loop(); {
+ 
+   arduboy.clear();
+   
+ }
+ ### in this code we declare the variable, int_stands_for_integer (it does) and notice how I gave it an initial value in the setup section. I gave the integer the value of one. So now we can add this variable do math with it. Now what if you want to add a bigger value to a variable? There is a command to do this. The command is:
+ int_stands_for_integer = int_stands_for_integer + 1; 
+ ### This line of code adds one to the variable int_stands_for_integer. This variable is now holding the value of 2. There is also a different way to do this you can re-declare the value of the variable to anything we want. If I wanted to declare the variable as the number 2, I would write: 
+ int_stands_for_integer = 2; 
+ ### this is a little bit shorter if you are using long variable names. 
