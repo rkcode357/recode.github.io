@@ -88,4 +88,4 @@
  int_stands_for_integer = int_stands_for_integer + 1; 
  ### This line of code adds one to the variable int_stands_for_integer. This variable is now holding the value of 2. There is also a different way to do this you can re-declare the value of the variable to anything we want. If I wanted to declare the variable as the number 2, I would write: 
  int_stands_for_integer = 2; 
- ### this is a little bit shorter if you are using long variable names. 
+ ### this is a little bit shorter if you are using long variable names. Variables are very useful and amazing pieces of code. In the next tutorial, we are going to 
